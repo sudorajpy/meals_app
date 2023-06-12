@@ -34,7 +34,7 @@ class MealsScreen extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
 
-              Text('Uh oh... No meals found',style: TextStyle(color: Color.fromARGB(255, 253, 252, 252),fontSize: 24, fontWeight: FontWeight.bold),),
+              Text('Uh oh... No meals found here',style: TextStyle(color: Color.fromARGB(255, 253, 252, 252),fontSize: 24, fontWeight: FontWeight.bold),),
               SizedBox(height: 16,),
               Text('Try Selecting a different category', style: TextStyle(color: Color.fromARGB(255, 251, 249, 249), fontSize: 16))
             ],
