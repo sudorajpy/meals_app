@@ -22,9 +22,8 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      theme: theme,
-      home:const TabScreen()
+    return const MaterialApp(
+      home: TabScreen()
     );
   }
 }
