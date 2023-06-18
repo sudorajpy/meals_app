@@ -7,9 +7,8 @@ final theme = ThemeData(
   useMaterial3: true,
   colorScheme: ColorScheme.fromSeed(
     brightness: Brightness.dark,
-    seedColor: Color.fromARGB(255, 136, 61, 4),
+    seedColor: Color.fromARGB(255, 83, 36, 0),
   ),
-  
   textTheme: GoogleFonts.latoTextTheme(),
 );
 
@@ -22,8 +21,6 @@ class App extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: TabScreen()
-    );
+    return const MaterialApp(home: TabScreen());
   }
 }
